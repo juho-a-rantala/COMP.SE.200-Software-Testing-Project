@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "mocha test/**/*.js",
-    "coverage": "c8 --all --include=src/filter.js --include=src/every.js --include=src/add.js --include=src/isEmpty.js --include=src/defaultTo.js --include=src/difference.js --include=src/map.js --include=src/drop.js --include=src/isDate.js --include=src/capitalize.js mocha"
+    "coverage": "c8 --reporter=lcov --all --include=src/filter.js --include=src/every.js --include=src/add.js --include=src/isEmpty.js --include=src/defaultTo.js --include=src/difference.js --include=src/map.js --include=src/drop.js --include=src/isDate.js --include=src/capitalize.js mocha"
   },
   "author": "",
   "license": "MIT",
