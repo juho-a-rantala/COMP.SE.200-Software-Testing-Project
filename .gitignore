@@ -1,0 +1,32 @@
+# Node.js
+node_modules/
+npm-debug.log
+
+# Logs
+logs
+*.log
+
+# Dependency directories
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Optional: build directory
+build/
+dist/
+out/
+
+# Optional: OS generated files
+.DS_Store
+Thumbs.db
+
+# Optional: Editor directories and files
+.vscode/
+.idea/
+
+# Optional: local configuration
+.env
+
+# Coverage
+coverage/

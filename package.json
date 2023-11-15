@@ -5,10 +5,14 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no tests are implemented yet \" && exit 1"
+    "test": "mocha test/**/*.js",
+    "coverage": "c8 --all --include=src/filter.js --include=src/every.js --include=src/add.js --include=src/isEmpty.js --include=src/defaultTo.js --include=src/difference.js --include=src/map.js --include=src/drop.js --include=src/isDate.js --include=src/capitalize.js mocha"
   },
   "author": "",
   "license": "MIT",
-  "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {
+    "c8": "^8.0.1",
+    "chai": "^4.3.10",
+    "mocha": "^10.2.0"
+  }
 }
