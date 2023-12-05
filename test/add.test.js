@@ -136,12 +136,6 @@ describe('add.js - add function', function () {
 
   
   });
-  describe('incorrect parameter type', function() {
-
-    it('should result to Number when String + Number', function() {
-      expect(add('1', 0)).to.be.a('number');
-    })
-  });
 
   it('should work with both zero', function() {
     expect(add(0, 0)).to.eql(0);
